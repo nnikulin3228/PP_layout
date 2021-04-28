@@ -1,0 +1,286 @@
+.exp-sect{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &__red-square {
+        width: 220px;
+        height: 220px;
+        margin-left: 90px;
+        margin-top: -66px;
+        border: 6px solid #DA353B;
+        box-sizing: border-box;
+    }
+
+    &__block-txt {
+        width: 564px;
+        margin-left: 170px;
+        margin-top: -71px;
+
+        h2{
+            margin-left: -2px;
+            margin-bottom: 72px;
+            font-family: "HelveticaBlack";
+            font-size: 48px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #000000;
+        }
+        span {
+            color: #DA353B;
+        }
+        p {
+            font-family: "HelveticaLight";
+            font-size: 24px;
+            line-height: 150%;
+            color: #000000;
+        }
+    }
+
+    &__row {
+        display: flex;
+
+        &__img-l {
+            margin-top: 80px;
+            width: 811px;
+            height: 470px;
+            background-image: url("../../img/man_glasses.jpg");
+
+            &__opacity {
+                width: 501px;
+                height: 470px;
+                margin-left: 330px;
+                background: rgba(0, 0, 0, 0.55);
+            }
+        }
+
+        &__red-line {
+            margin-top: 80px;
+            width: 21px;
+            height: 470px;
+            background-color: #DA353B;
+        }
+
+        &__txt {
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding-left: 60px;
+
+            h3 {
+                width: 417px;
+                font-family: "HelveticaBlack";
+                font-size: 36px;
+                line-height: 110%;
+                text-transform: uppercase;
+                color: #000000;
+
+                .white {
+                    color: #000000;
+                }
+
+                .red {
+                    color:#DA353B;
+                }
+            }
+
+
+            p {
+                margin-top: 20px;
+                width: 355px;
+                font-family: "HelveticaLight";
+                font-size: 16px;
+                line-height: 26px;
+                color: #000000;
+            }
+
+            .red-txt {
+                font-family: "HelveticaBlack";
+                color: #DA353B;
+                margin-top: 11px;
+            }
+        }
+        .txt-2 {
+            padding-left: 169px;
+            padding-top: 30px;
+
+            h3 {
+                width: 342px;
+            }
+            p {
+                margin-left: 3px;
+                padding-top: 3px;
+                width: 297px;
+                height: 104px;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+        &__img-r {
+            position: relative;
+            width: 950px;
+            height: 500px;
+            padding-top: 179px;
+            overflow: hidden;
+
+            &__red-square{
+                position: relative;
+                z-index: 1;
+                width: 884px;
+                height: 302px;
+                background-image: url("../../img/red-square.svg");
+                margin-top: -277px;
+                margin-left: 59px;
+            }
+
+            &__img {
+                position: relative;
+                z-index: 2;
+                width: 860px;
+                height: 343px;
+                margin-top: -89px;
+                margin-left: 84px;
+                background-image: url("../../img/lego_man.jpg");
+
+                .opacity{
+                    width: 219px;
+                    height: 343px;
+                    margin-left: 296px;
+                    background: rgba(0, 0, 0, 0.4);
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 375px) and (max-width: 1439px) {
+    .exp-sect{
+        width: 375px;
+
+        &__red-square {
+            width: 143px;
+            height: 143px;
+            margin-left: 116px;
+            margin-top: -19px;
+            border: 3px solid #DA353B;
+            box-sizing: border-box;
+        }
+
+        &__block-txt {
+            width: 319px;
+            margin-left: 28px;
+            margin-top: -92px;
+
+            h2 {
+                margin-left: -1px;
+                margin-bottom: 34px;
+                font-size: 44px;
+                line-height: 90%;
+            }
+
+            p {
+                font-size: 18px;
+                width: 300px;
+            }
+        }
+
+        &__row {
+            display: flex;
+            flex-direction: column;
+
+            &__img-l {
+                margin-top: 30px;
+                width: 346px;
+                height: 260px;
+                background-image: url("../../img/mob_man-glasses.png");
+
+                &__opacity {
+                    width: 0%;
+                    height: 0%;
+                }
+            }
+
+            &__red-line {
+                width: 8.87px;
+                height: 260px;
+                margin-top: -260px;
+                margin-left: 339px;
+            }
+
+            &__txt {
+                padding-left: 28px;
+                margin-top: -67px;
+
+                h3 {
+                    z-index: 3;
+                    width: 268px;
+                    font-size: 40px;
+                    line-height: 90%;
+
+                    .white {
+                        color: #FFFFFF;
+                    }
+
+                    .red {
+                        color:#DA353B;
+                    }
+                }
+
+                p{
+                    margin-top: 14px;
+                    width: 318px;
+                }
+
+                .red-txt {
+                    margin-top: 5px;
+                }
+            }
+
+            .txt-2 {
+                padding-top: 0px;
+                margin-top: -82px;
+                padding-left: 28px;
+
+                p {
+                    margin-left: 0px;
+                    padding-top: 0px;
+                }
+            }
+            &__img-r {
+                width: 362px;
+                height: 274px;
+                padding-top: 0px;
+                // margin-top: -418px;
+                overflow: visible;
+
+                &__red-square {
+                    width: 286px;
+                    height: 194px;
+                    margin-top: -274px;
+                    margin-left: 76px;
+                    background-image: url(../../img/mob_red-square.svg);
+                }
+
+                &__img {
+                    width: 348px;
+                    height: 260px;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    background-image: url(../../img/mob_lego_man.png);
+
+                    .opacity {
+                        width: 0%;
+                        height: 0%;
+                    }
+                }
+            }
+
+        }
+        &__row-reverse {
+            flex-direction: column-reverse;
+            margin-top: 40px;
+        }
+    }
+}
+

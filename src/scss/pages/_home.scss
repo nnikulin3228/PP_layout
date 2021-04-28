@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "HelveticaBlack";
+    src: url("../../fonts/HelveticaNeueCyr-Black.ttf");
+}
+@font-face {
+    font-family: "HelveticaLight";
+    src: url("../../fonts/HelveticaNeueCyr-Light.ttf");  
+}
+@font-face {
+    font-family: "HelveticaUltraLight";
+    src: url("../../fonts/HelveticaNeueCyr-UltraLight.ttf");  
+}
+@font-face {
+    font-family: "HelveticaMedium";
+    src: url("../../fonts/HelveticaNeueCyr-Medium.ttf");
+}
+.home {
+    width: 1440px;
+    // height: 5494px;
+    // background-image: url('../../img/conference_des.jpg');
+    background-position-y: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    @media (min-width: 375px) and (max-width: 1439px) {
+        width: 375px;
+        // height: 4544px;
+        // background-image: url(../../img/conference_mob.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+p, h1, h2, h3, h4, a {
+    margin: 0;
+}
+
+h4 {
+    font-family: "HelveticaLight";
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
